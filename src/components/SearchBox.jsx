@@ -13,10 +13,7 @@ function SearchBox({ search, setSearch, searchHandler, searchClear }) {
         onChange={(e) => setSearch(e.target.value.toLowerCase())}
         onKeyUp={searchClear}
       />
-      <button onClick={searchHandler}>
-        <BsSearch />
-      </button>
-    </div>
+     </div>
   );
 }
 
